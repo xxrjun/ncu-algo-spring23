@@ -183,4 +183,3 @@ int main()
 ```
 
 <div align="right"><a href="#homework-1">BACK TO TOP</a></div>
-```
