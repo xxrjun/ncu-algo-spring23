@@ -127,7 +127,7 @@ Output: Boolean, if n is a happy number
 18.             return false
 19.
 20.     // 將出現過的數字加入seen
-21.     seen.add(new_num)
+21.     insert new_num in seen
 22.
 23.     n ← new_num
 ```
