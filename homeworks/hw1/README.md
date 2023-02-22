@@ -107,7 +107,7 @@ Algorithm isHappyNumber(n)
 Input: Integer, n (n > 0)
 Output: Boolean, if n is a happy number
 
- 1. seen ← set()
+ 1. seen ← empty set
  2.
  3. while true
  4.     new_num ← 0
@@ -123,7 +123,7 @@ Output: Boolean, if n is a happy number
 14.         return true
 15.
 16.     // 出現循環，不為快樂數
-17.        if new_num in set
+17.     if new_num in seen
 18.             return false
 19.
 20.     // 將出現過的數字加入seen
