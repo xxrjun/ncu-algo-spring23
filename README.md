@@ -11,9 +11,10 @@
 
 ## Homeworks(hand-writing)
 
-| #HW                     | Date     | Score |
-| ----------------------- | -------- | ----- |
-| [HW1](./homeworks/hw1/) | 23/02/21 |       |
+| #HW                           | Date     | Score |
+| ----------------------------- | -------- | ----- |
+| [HW1 A & F](./homeworks/hw1/) | 23/02/21 |       |
+| [HW2 D & G](./homeworks/hw2/) | 23/03/09 |       |
 
 ## Online Judge Problems(Using C++)
 
