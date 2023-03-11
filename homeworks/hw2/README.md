@@ -71,7 +71,7 @@ D. 使用虛擬碼(pseudo code)寫一個演算法，以輸入一個具有 n 個�
 
 ```cpp
 Algorithm powerSet(inputSet)
-Input: Set of integers
+Input: Set of n elements
 Output: Power set of the inputSet
 
 1. // 建立一個只包含空集合的幂集合
