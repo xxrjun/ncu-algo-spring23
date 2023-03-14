@@ -13,7 +13,7 @@
 
 | #HW                           | Date     | Score |
 | ----------------------------- | -------- | ----- |
-| [HW1 A & F](./homeworks/hw1/) | 23/02/21 |       |
+| [HW1 A & F](./homeworks/hw1/) | 23/02/21 | 100   |
 | [HW2 D & G](./homeworks/hw2/) | 23/03/09 |       |
 
 ## Online Judge Problems(Using C++)
@@ -27,10 +27,14 @@ Team59
 | [1-1 Odd Sum](./oj-problems/01/1-1_odd_sum.cpp)                             | 23/03/01 | Yes    |
 | [1-2 Happy Number](./oj-problems/01/1-2_happy_number.cpp)                   | 23/03/01 | Yes    |
 | [1-3 Odd Sum](./oj-problems/01/1-1_odd_sum.cpp)                             | 23/03/01 | Yes    |
-| 第一周成績: Rank 18 / Time 624                                              |          |        |
+| 第一周成績: Rank 18/137 : Time 624                                          |          |        |
 | [2-1 Odd Sum without prime](./oj-problems/02/2-1_odd_sum_without_prime.cpp) | 23/03/07 | Yes    |
 | [2-2 GCD](./oj-problems/02/2-2_GCD.cpp)                                     | 23/03/07 | Yes    |
 | [2-3 Perfect number](./oj-problems/02/2-3_perfect_number.cpp)               | 23/03/07 | Yes    |
-| 第二周成績: Rank / Time                                                     |          |        |
+| 第二周成績: Rank 13/137 : Time 206                                          |          |        |
+| [3-1 Bubble sort](./oj-problems/03/3-1_bubble.cpp)                          | 23/03/14 | Yes    |
+| [3-2 Fibonacci](./oj-problems/03/3-2_fibonacci.cpp)                         | 23/03/14 | Yes    |
+| [3-3 All in All](./oj-problems/03/3-3_all_int_all.cpp)                      | 23/03/14 | Yes    |
+| 第三周成績: Rank : Time                                                     |          |        |
 
 ## Epilogue
