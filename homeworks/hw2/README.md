@@ -1,8 +1,8 @@
 # Homework 2
 
 - [Homework 2](#homework-2)
-  - [題目 1:](#題目-1)
-  - [題目 2:](#題目-2)
+    - [題目 1:](#題目-1)
+    - [題目 2:](#題目-2)
 
 ### 題目 1:
 
@@ -82,7 +82,7 @@ Output: Power set of the inputSet
 6.     return powerSet
 7. else:
 8.     // 對於輸入之集合的每個元素
-9.     for element in set:
+9.     for element in inputSet:
 10.
 11.         // 目前集合的長度
 12.         n ← lenght of powerSet
