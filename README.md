@@ -15,6 +15,7 @@
 | ----------------------------- | -------- | ----- |
 | [HW1 A & F](./homeworks/hw1/) | 23/02/21 | 100   |
 | [HW2 D & G](./homeworks/hw2/) | 23/03/09 |       |
+| [HW3 B & D](./homeworks/hw3/) | 23/03/15 |       |
 
 ## Online Judge Problems(Using C++)
 
