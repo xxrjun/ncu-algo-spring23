@@ -34,3 +34,5 @@
 # Other files
 /test
 /.vscode
+*.zip
+
