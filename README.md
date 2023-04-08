@@ -61,8 +61,8 @@ Team59
 
 | Algorithm                          | Code                                     | Analysis                   |
 | ---------------------------------- | ---------------------------------------- | -------------------------- |
-| KnapSack                           | [C++](./implementations/DP-KnapSack.cpp) | Time Complexity: O(nW)     |
-| Longest Common Subsequence         | [C++](./implementations/DP-LCS.cpp)      | Time Complexity: O(n \* m) |
-| Maximum Contiguous Subsequence Sum | [C++](./implementations/DP-MCSS.cpp)     | Time Complexity: O(n)      |
+| KnapSack                           | [C++](./implementations/dp/DP-KnapSack.cpp) | Time Complexity: O(nW)     |
+| Longest Common Subsequence         | [C++](./implementations/dp/DP-LCS.cpp)      | Time Complexity: O(n \* m) |
+| Maximum Contiguous Subsequence Sum | [C++](./implementations/dp/DP-MCSS.cpp)     | Time Complexity: O(n)      |
 
 ## Epilogue
