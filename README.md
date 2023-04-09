@@ -26,12 +26,12 @@
 
 ### Divide and Conquer
 
-| Algorithm                          | Code                     | Time Complexity                                     | Space Complexity |
-| ---------------------------------- | ------------------------ | --------------------------------------------------- | ---------------- |
-| Merge Sort                         | [C++](./implementations) | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(nlogn)_ |                  |
-| Quick Sort                         | [C++](./implementations) | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(n ^ 2)_ |                  |
-| Maximum Contiguous Subsequence Sum | [C++](./implementations) |                                                     |                  |
-| Closest Pair of 2D Points          | [C++](./implementations) |                                                     |                  |
+| Algorithm                          | Code                                                       | Time Complexity                                     | Space Complexity |
+| ---------------------------------- | ---------------------------------------------------------- | --------------------------------------------------- | ---------------- |
+| Merge Sort                         | [C++](./implementations/divide-and-conquer/merge-sort.cpp) | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(nlogn)_ |                  |
+| Quick Sort                         | [C++](./implementations)                                   | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(n ^ 2)_ |                  |
+| Maximum Contiguous Subsequence Sum | [C++](./implementations)                                   |                                                     |                  |
+| Closest Pair of 2D Points          | [C++](./implementations)                                   |                                                     |                  |
 
 ### Dynamic Programming
 
@@ -77,20 +77,6 @@ Team59
 | [5-1 Add the Page](./oj-problems/05/5-1_add_the_page.cpp)                   |                                       | Yes    |
 | [5-2 Divisors](./oj-problems/05/5-2_divisors.cpp)                           | 23/03/28                              | Yes    |
 | [5-3 Ugly Number](./oj-problems/05/5-3_ugly_number.cpp)                     | 23/03/28                              | Yes    |
-| 第四周成績: **Rank 2/137** : Time 101                                       | [Done](./oj-problems/src/04-0321.png) |        |
-
-## Implementations of Algorithms
-
-### Sorting
-
-### Divide and Conquer
-
-### Dynamic Programming
-
-| Algorithm                          | Code                                     | Analysis                   |
-| ---------------------------------- | ---------------------------------------- | -------------------------- |
-| KnapSack                           | [C++](./implementations/DP-KnapSack.cpp) | Time Complexity: O(nW)     |
-| Longest Common Subsequence         | [C++](./implementations/DP-LCS.cpp)      | Time Complexity: O(n \* m) |
-| Maximum Contiguous Subsequence Sum | [C++](./implementations/DP-MCSS.cpp)     | Time Complexity: O(n)      |
+| 第五周成績: **Rank /137** : Time (此周原題目有出錯)                         | [Done](./oj-problems/src/04-0321.png) |        |
 
 ## Epilogue
