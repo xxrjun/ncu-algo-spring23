@@ -5,13 +5,34 @@
 > 變 29 學分了
 
 - [NCU CE Algorithms in Spring 2023](#ncu-ce-algorithms-in-spring-2023)
-  - [Homeworks(hand-writing)](#homeworkshand-writing)
-  - [Online Judge Problems(Using C++)](#online-judge-problemsusing-c)
   - [Implementations of Algorithms](#implementations-of-algorithms)
-    - [Sorting](#sorting)
+    - [Analysis](#analysis)
     - [Divide and Conquer](#divide-and-conquer)
     - [Dynamic Programming](#dynamic-programming)
+  - [Homeworks(hand-writing)](#homeworkshand-writing)
+  - [Online Judge Problems(Using C++)](#online-judge-problemsusing-c)
   - [Epilogue](#epilogue)
+
+## Implementations of Algorithms
+
+### Analysis
+
+| Algorithm                          | Code                     | Analysis |
+| ---------------------------------- | ------------------------ | -------- |
+| Fibonacci                          | [C++](./implementations) |          |
+| Bubble Sort                        | [C++](./implementations) |          |
+| Selection Sort                     | [C++](./implementations) |          |
+| Maximum Contiguous Subsequence Sum | [C++](./implementations) |          |
+
+### Divide and Conquer
+
+### Dynamic Programming
+
+| Algorithm                          | Code                                     | Analysis                   |
+| ---------------------------------- | ---------------------------------------- | -------------------------- |
+| KnapSack                           | [C++](./implementations/DP-KnapSack.cpp) | Time Complexity: O(nW)     |
+| Longest Common Subsequence         | [C++](./implementations/DP-LCS.cpp)      | Time Complexity: O(n \* m) |
+| Maximum Contiguous Subsequence Sum | [C++](./implementations/DP-MCSS.cpp)     | Time Complexity: O(n)      |
 
 ## Homeworks(hand-writing)
 
@@ -50,19 +71,5 @@ Team59
 | [5-2 Divisors](./oj-problems/05/5-2_divisors.cpp)                           | 23/03/28                              | Yes    |
 | [5-3 Ugly Number](./oj-problems/05/5-3_ugly_number.cpp)                     | 23/03/28                              | Yes    |
 | 第四周成績: **Rank 2/137** : Time 101                                       | [Done](./oj-problems/src/04-0321.png) |        |
-
-## Implementations of Algorithms
-
-### Sorting
-
-### Divide and Conquer
-
-### Dynamic Programming
-
-| Algorithm                          | Code                                     | Analysis                   |
-| ---------------------------------- | ---------------------------------------- | -------------------------- |
-| KnapSack                           | [C++](./implementations/DP-KnapSack.cpp) | Time Complexity: O(nW)     |
-| Longest Common Subsequence         | [C++](./implementations/DP-LCS.cpp)      | Time Complexity: O(n \* m) |
-| Maximum Contiguous Subsequence Sum | [C++](./implementations/DP-MCSS.cpp)     | Time Complexity: O(n)      |
 
 ## Epilogue
