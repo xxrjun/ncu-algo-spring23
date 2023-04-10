@@ -34,6 +34,20 @@ void merge(int seq[], int left, int mid, int right)
     }
 }
 
+/**
+ * @brief Merge Sort
+ *
+ * * Time Complexity:
+ * * * Best: O(nlogn)
+ * * * Worst: O(nlogn)
+ * * * Average: O(nlogn)
+ *
+ * * Space Complexity: O(n)
+ *
+ * @param seq
+ * @param left
+ * @param right
+ */
 void mergeSort(int seq[], int left, int right)
 {
     if (left >= right) // 元素只剩下一個，終止條件
