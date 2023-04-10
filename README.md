@@ -26,20 +26,20 @@
 
 ### Divide and Conquer
 
-| Algorithm                          | Code                                                       | Time Complexity                                     | Space Complexity |
-| ---------------------------------- | ---------------------------------------------------------- | --------------------------------------------------- | ---------------- |
-| Merge Sort                         | [C++](./implementations/divide-and-conquer/merge-sort.cpp) | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(nlogn)_ |                  |
-| Quick Sort                         | [C++](./implementations)                                   | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(n ^ 2)_ |                  |
-| Maximum Contiguous Subsequence Sum | [C++](./implementations)                                   |                                                     |                  |
-| Closest Pair of 2D Points          | [C++](./implementations)                                   |                                                     |                  |
+| Algorithm                          | Code                                                       | Time Complexity                                     | Space Complexity                                       |
+| ---------------------------------- | ---------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------ |
+| Merge Sort                         | [C++](./implementations/divide-and-conquer/merge-sort.cpp) | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(nlogn)_ | _O(n)_, stable, not inplace                            |
+| Quick Sort                         | [C++](./implementations)                                   | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(n ^ 2)_ | B: _O(logn_)<br/>W: _O(n)_<br/>not stable, not inplace |
+| Maximum Contiguous Subsequence Sum | [C++](./implementations/divide-and-conquer/MCSS.cpp)       | _O(nlogn)_                                          | _O(logn)_                                              |
+| Closest Pair of 2D Points          | [C++](./implementations)                                   |                                                     |                                                        |
 
 ### Dynamic Programming
 
-| Algorithm                          | Code                                        | Time Complexity | Space Complexity |
-| ---------------------------------- | ------------------------------------------- | --------------- | ---------------- |
-| KnapSack                           | [C++](./implementations/dp/DP-KnapSack.cpp) | _O(n \* W)_     | -                |
-| Longest Common Subsequence         | [C++](./implementations/dp/DP-LCS.cpp)      | _O(n \* m)_     | -                |
-| Maximum Contiguous Subsequence Sum | [C++](./implementations/dp/DP-MCSS.cpp)     | _O(n)_          | -                |
+| Algorithm                          | Code                                        | Time Complexity | Space Complexity                |
+| ---------------------------------- | ------------------------------------------- | --------------- | ------------------------------- |
+| KnapSack                           | [C++](./implementations/dp/DP-KnapSack.cpp) | _O(n \* W)_     | -                               |
+| Longest Common Subsequence         | [C++](./implementations/dp/DP-LCS.cpp)      | _O(n \* m)_     | -                               |
+| Maximum Contiguous Subsequence Sum | [C++](./implementations/dp/DP-MCSS.cpp)     | _O(n)_          | 原版: _O(n)_<br/>改良版: _O(1)_ |
 
 ## Homeworks(hand-writing)
 
@@ -74,9 +74,9 @@ Team59
 | [4-2 Reverse and Add](./oj-problems/04/4-2_reverse_and_add.cpp)             | 23/03/22                              | Yes    |
 | [4-3 Number Sort](./oj-problems/04/4-3_number_sort.cpp)                     | 23/03/22                              | Yes    |
 | 第四周成績: **Rank 2/137** : Time 101                                       | [Done](./oj-problems/src/04-0321.png) |        |
-| [5-1 Add the Page](./oj-problems/05/5-1_add_the_page.cpp)                   |                                       | Yes    |
+| [5-1 Add the Page](./oj-problems/05/5-1_add_the_page.cpp)                   | 23/03/28                              | Yes    |
 | [5-2 Divisors](./oj-problems/05/5-2_divisors.cpp)                           | 23/03/28                              | Yes    |
 | [5-3 Ugly Number](./oj-problems/05/5-3_ugly_number.cpp)                     | 23/03/28                              | Yes    |
-| 第五周成績: **Rank /137** : Time (此周原題目有出錯)                         | [Done](./oj-problems/src/04-0321.png) |        |
+| 第五周成績: **Rank /137** : Time (此周原題目有出錯)                         | [Done]()                              |        |
 
 ## Epilogue
