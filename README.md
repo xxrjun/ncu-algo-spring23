@@ -31,15 +31,15 @@
 | Merge Sort                         | [C++](./implementations/divide-and-conquer/merge-sort.cpp) | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(nlogn)_ | _O(n)_, stable, not inplace                            |
 | Quick Sort                         | [C++](./implementations)                                   | B: _O(nlogn)_<br />A: _O(nlogn)_<br />W: _O(n ^ 2)_ | B: _O(logn_)<br/>W: _O(n)_<br/>not stable, not inplace |
 | Maximum Contiguous Subsequence Sum | [C++](./implementations/divide-and-conquer/MCSS.cpp)       | _O(nlogn)_                                          | _O(logn)_                                              |
-| Closest Pair of 2D Points          | [C++](./implementations)                                   |                                                     |                                                        |
+| Closest Pair of 2D Points          | [C++](./implementations)                                   | _O(nlogn)_                                          |                                                        |
 
 ### Dynamic Programming
 
-| Algorithm                          | Code                                        | Time Complexity | Space Complexity                |
-| ---------------------------------- | ------------------------------------------- | --------------- | ------------------------------- |
-| KnapSack                           | [C++](./implementations/dp/DP-KnapSack.cpp) | _O(n \* W)_     | -                               |
-| Longest Common Subsequence         | [C++](./implementations/dp/DP-LCS.cpp)      | _O(n \* m)_     | -                               |
-| Maximum Contiguous Subsequence Sum | [C++](./implementations/dp/DP-MCSS.cpp)     | _O(n)_          | 原版: _O(n)_<br/>改良版: _O(1)_ |
+| Algorithm                          | Code                                        | Time Complexity                                         | Space Complexity                |
+| ---------------------------------- | ------------------------------------------- | ------------------------------------------------------- | ------------------------------- |
+| KnapSack                           | [C++](./implementations/dp/DP-KnapSack.cpp) | _O(n \* W)_, n 代表物品數量；W 代表背包最大承重         | _O(n \* W)_                     |
+| Longest Common Subsequence         | [C++](./implementations/dp/DP-LCS.cpp)      | _O(n \* m)_, n 代表第一個序列長度；m 代表第二個序列長度 | _O(n \* m)_                     |
+| Maximum Contiguous Subsequence Sum | [C++](./implementations/dp/DP-MCSS.cpp)     | _O(n)_                                                  | 原版: _O(n)_<br/>改良版: _O(1)_ |
 
 ## Homeworks(hand-writing)
 
