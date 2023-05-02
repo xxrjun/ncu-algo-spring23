@@ -41,7 +41,7 @@ int main()
         for (int j = 1; j <= n; j++)
         {
 
-            if (X.at(i - 1) == Y.at(j - 1)) /* 相同，填入左上角的數字 */
+            if (X.at(i - 1) == Y.at(j - 1)) /* 相同，填入左上角的數字 + 1 */
             {
                 c[i][j] = c[i - 1][j - 1] + 1;
                 b[i][j] = "same";
