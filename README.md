@@ -10,6 +10,7 @@
     - [Divide and Conquer](#divide-and-conquer)
     - [Dynamic Programming](#dynamic-programming)
   - [Homeworks(hand-writing)](#homeworkshand-writing)
+  - [Midterm Project CNN 工件辨識](#midterm-project-cnn-工件辨識)
   - [Online Judge Problems(Using C++)](#online-judge-problemsusing-c)
   - [Epilogue](#epilogue)
 
@@ -49,6 +50,16 @@
 | [HW2 D & 論文心得](./homeworks/hw2/)                 | 23/03/14 | 100   |
 | [HW3 B & D](./homeworks/hw3/)                        | 23/03/21 | 100   |
 | [HW4 4-1B & 4-2G](./homeworks/hw4/HW4_109403019.pdf) | 23/03/28 | 100   |
+
+## Midterm Project CNN 工件辨識
+
+> 收到的評語: Great ! 訓練神經網路就是不斷嘗試~文件做得很好，可以當成下屆範本了 XD
+>
+> 痛哭流涕
+
+- [Midterm Project 程式碼](./midterm-project/MidTerm_Project_109403019_%E9%84%92%E7%BF%94%E5%AE%87.ipynb)
+- [Midterm Project Report](./midterm-project/MidTerm_Project_109403019_%E9%84%92%E7%BF%94%E5%AE%87.pdf)
+- [Midterm Project Dataset](./midterm-project/dataset/)
 
 ## Online Judge Problems(Using C++)
 
