@@ -9,47 +9,55 @@ using namespace std;
 pair<int, int> parse_expression(const string &expr)
 {
     int coef = 0, constant = 0;
-    stringstream ss(expr);
     string term;
 
+    // 用正負號來判斷是否為項的開頭
     bool negative = false;
-    while (getline(ss, term, '+'))
+
+    // 逐字元處理式子
+    for (char ch : expr)
     {
-        if (term.find('-') != string::npos)
+        // 遇到加減號時，將目前的項加入係數或常數
+        if (ch == '+' || ch == '-')
         {
-            stringstream ss2(term);
-            string subterm;
-            while (getline(ss2, subterm, '-'))
+            if (!term.empty())
             {
-                if (!subterm.empty())
+                if (term.back() == 'x')
                 {
-                    if (subterm.back() == 'x')
-                    {
-                        int num = subterm.size() == 1 ? 1 : stoi(subterm.substr(0, subterm.size() - 1));
-                        coef += negative ? -num : num;
-                    }
-                    else
-                    {
-                        constant += negative ? -stoi(subterm) : stoi(subterm);
-                    }
+                    int num = term.size() == 1 ? 1 : stoi(term.substr(0, term.size() - 1));
+                    coef += negative ? -num : num;
                 }
-                negative = !negative;
+                else
+                {
+                    constant += negative ? -stoi(term) : stoi(term);
+                }
+                term.clear();
             }
-            negative = false;
+
+            // 記錄下一項的正負號
+            negative = (ch == '-');
         }
         else
         {
-            if (term.back() == 'x')
-            {
-                int num = term.size() == 1 ? 1 : stoi(term.substr(0, term.size() - 1));
-                coef += num;
-            }
-            else
-            {
-                constant += stoi(term);
-            }
+            // 非加減號時，將字元加入項中
+            term.push_back(ch);
         }
     }
+
+    // 將剩下的項加入係數或常數
+    if (!term.empty())
+    {
+        if (term.back() == 'x')
+        {
+            int num = term.size() == 1 ? 1 : stoi(term.substr(0, term.size() - 1));
+            coef += negative ? -num : num;
+        }
+        else
+        {
+            constant += negative ? -stoi(term) : stoi(term);
+        }
+    }
+
     return {coef, constant};
 }
 
@@ -57,11 +65,11 @@ int main()
 {
     int n;
     cin >> n;
-    cin.ignore();
+    cin.ignore(); //
+    string equation;
 
     while (n--)
     {
-        string equation;
         getline(cin, equation);
 
         // 找到等號位置，分割左右兩邊的式子
