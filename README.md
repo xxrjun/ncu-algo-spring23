@@ -88,10 +88,10 @@ Team59
 | [5-1 Add the Page](./oj-problems/05/5-1_add_the_page.cpp)                                    | 23/03/28                              | Yes    |
 | [5-2 Divisors](./oj-problems/05/5-2_divisors.cpp)                                            | 23/03/28                              | Yes    |
 | [5-3 Ugly Number](./oj-problems/05/5-3_ugly_number.cpp)                                      | 23/03/28                              | Yes    |
-| 第五周成績: **Rank /137** : Time (此周原題目有出錯)                                          |                                       |        |
+| 第五周成績: **Rank 5/137** : Time (此周原題目有出錯)                                         |                                       |        |
 | [6-1 Calculate Quantum State](./oj-problems/06/6-1_Calculate_quantum_state.py)               | 23/05/02                              | Yes    |
 | [6-2 Multiple Control Constructions](./oj-problems/06/6-2_Multiple_Control_Constructions.py) | 23/05/02                              | Yes    |
 | [6-3 Deutsch-Jozsa Algorithm](./oj-problems/06/6-3_Deutsch-Jozsa_Algorithm.py)               | 23/05/02                              | Yes    |
-| 第六次成績: **Rank /137** : Time                                                             |                                       |        |
+| 第六次成績: **Rank 2/137** : Time                                                            |                                       |        |
 
 ## Epilogue
